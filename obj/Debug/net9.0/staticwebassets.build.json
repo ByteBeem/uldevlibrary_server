@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "mKbFGeR051JL/SEkjd/hvswOE2hvCN/g1xDK5yKLLGM=",
+  "Source": "libraryServer",
+  "BasePath": "_content/libraryServer",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

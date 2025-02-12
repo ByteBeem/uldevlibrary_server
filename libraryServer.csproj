@@ -7,6 +7,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+
+    <None Update="runtimes\win-x64\native\pdfium.dll">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="runtimes\linux-x64\native\libpdfium.so">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+
+
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="9.0.0" />
     <PackageReference Include="PdfiumViewer" Version="2.13.0" />
     <PackageReference Include="SixLabors.ImageSharp" Version="3.1.6" />
